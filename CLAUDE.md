@@ -15,7 +15,7 @@ go mod init github.com/[username]/scion
 
 ### Build
 ```bash
-go build -o scion
+go build -o build/scion ./cmd/scion
 ```
 
 ### Run Tests
